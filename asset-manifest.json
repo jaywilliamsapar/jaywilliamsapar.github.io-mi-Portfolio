@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Watashi-no-Portfoilion-App/static/css/main.c9870dcc.css",
-    "main.js": "/Watashi-no-Portfoilion-App/static/js/main.050eee98.js",
+    "main.css": "/Watashi-no-Portfoilion-App/static/css/main.e751bfb6.css",
+    "main.js": "/Watashi-no-Portfoilion-App/static/js/main.ee90f424.js",
     "static/media/white.png": "/Watashi-no-Portfoilion-App/static/media/white.ec73793f87b6f085effc.png",
     "static/media/realestate.jpg": "/Watashi-no-Portfoilion-App/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/jws.png": "/Watashi-no-Portfoilion-App/static/media/jws.d6d987252df0ee274c25.png",
@@ -21,11 +21,11 @@
     "static/media/jLogo.png": "/Watashi-no-Portfoilion-App/static/media/jLogo.5e621542e85228a59550.png",
     "static/media/javascript.png": "/Watashi-no-Portfoilion-App/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Watashi-no-Portfoilion-App/index.html",
-    "main.c9870dcc.css.map": "/Watashi-no-Portfoilion-App/static/css/main.c9870dcc.css.map",
-    "main.050eee98.js.map": "/Watashi-no-Portfoilion-App/static/js/main.050eee98.js.map"
+    "main.e751bfb6.css.map": "/Watashi-no-Portfoilion-App/static/css/main.e751bfb6.css.map",
+    "main.ee90f424.js.map": "/Watashi-no-Portfoilion-App/static/js/main.ee90f424.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9870dcc.css",
-    "static/js/main.050eee98.js"
+    "static/css/main.e751bfb6.css",
+    "static/js/main.ee90f424.js"
   ]
 }
