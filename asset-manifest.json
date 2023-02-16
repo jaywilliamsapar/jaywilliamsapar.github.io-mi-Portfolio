@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/Watashi-no-Portfoilion-App/static/css/main.e751bfb6.css",
-    "main.js": "/Watashi-no-Portfoilion-App/static/js/main.ee90f424.js",
+    "main.css": "/Watashi-no-Portfoilion-App/static/css/main.a717e52b.css",
+    "main.js": "/Watashi-no-Portfoilion-App/static/js/main.08d94d65.js",
     "static/media/white.png": "/Watashi-no-Portfoilion-App/static/media/white.ec73793f87b6f085effc.png",
     "static/media/realestate.jpg": "/Watashi-no-Portfoilion-App/static/media/realestate.44fd19f4c6872731149c.jpg",
+    "static/media/hiLogo.png": "/Watashi-no-Portfoilion-App/static/media/hiLogo.3c613b13c6dd18841e92.png",
+    "static/media/myLog.png": "/Watashi-no-Portfoilion-App/static/media/myLog.100cf0fd6cfc635472d0.png",
     "static/media/jws.png": "/Watashi-no-Portfoilion-App/static/media/jws.d6d987252df0ee274c25.png",
     "static/media/xwhite.jpg": "/Watashi-no-Portfoilion-App/static/media/xwhite.fc5030d376ba29a09ef2.jpg",
     "static/media/LegalHome.jpg": "/Watashi-no-Portfoilion-App/static/media/LegalHome.c9c6bf02e262095a46fe.jpg",
@@ -21,11 +23,11 @@
     "static/media/jLogo.png": "/Watashi-no-Portfoilion-App/static/media/jLogo.5e621542e85228a59550.png",
     "static/media/javascript.png": "/Watashi-no-Portfoilion-App/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Watashi-no-Portfoilion-App/index.html",
-    "main.e751bfb6.css.map": "/Watashi-no-Portfoilion-App/static/css/main.e751bfb6.css.map",
-    "main.ee90f424.js.map": "/Watashi-no-Portfoilion-App/static/js/main.ee90f424.js.map"
+    "main.a717e52b.css.map": "/Watashi-no-Portfoilion-App/static/css/main.a717e52b.css.map",
+    "main.08d94d65.js.map": "/Watashi-no-Portfoilion-App/static/js/main.08d94d65.js.map"
   },
   "entrypoints": [
-    "static/css/main.e751bfb6.css",
-    "static/js/main.ee90f424.js"
+    "static/css/main.a717e52b.css",
+    "static/js/main.08d94d65.js"
   ]
 }
