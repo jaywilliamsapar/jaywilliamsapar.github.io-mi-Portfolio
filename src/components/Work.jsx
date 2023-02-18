@@ -1,11 +1,8 @@
 import React from 'react';
-
-
 import WorkImg from '../assets/workImg.jpeg';
 import realEstate from '../assets/realestate.jpg';
 import LegalHome from '../assets/LegalHome.jpg';
 import White from '../assets/white.png';
-import xWhite from '../assets/xwhite.jpg';
 import Cars from '../assets/cars.jpg';
 import JWS from '../assets/jws.png';
 
