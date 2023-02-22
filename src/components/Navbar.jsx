@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaDribbble, FaDiscord} from 'react-icons/fa';
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaDiscord} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/jLogo.png';
@@ -25,7 +25,7 @@ const Navbar = () => {
       {/* Menu */}
       <div>
         <ul className='hidden md:flex' animate-bounce>
-          <li><Link  to="home" smooth={true} duration={600}>
+          <li><Link  to="home" smooth={true} duration={700}>
             Home
          </Link>
         </li>
