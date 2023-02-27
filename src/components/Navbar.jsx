@@ -25,7 +25,7 @@ const Navbar = () => {
       {/* Menu */}
       <div>
         <ul className='hidden md:flex' animate-bounce>
-          <li><Link  to="home" smooth={true} duration={700}>
+          <li><Link  to="home" smooth={true} duration={500}>
             Home
          </Link>
         </li>
