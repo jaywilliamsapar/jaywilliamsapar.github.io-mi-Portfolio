@@ -8,16 +8,16 @@ const Home = () => {
 
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-            <p className='text-red-400 font-bold'>Hi, my name is</p>
-            <h1 className='text-4xl sm:text-7xl font-bold text-red-400' >Jay William</h1>
-            <h2 className='text-4xl sm:text-7xl font-bold text-[#9398a8]'>I'm a Front-End Developer.</h2>
-            <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a Full-stack developer specializing in building 
+            <p className='text-[#e2a165] font-bold hover:text-[#fff] hover:border-[#ffa]'>Hi, my name is</p>
+            <h1 className='text-4xl sm:text-7xl font-bold text-[#fff]' >Jay William</h1>
+            <h2 className='text-4xl sm:text-7xl font-bold text-[#d47924]'>Front-End Developer.</h2>
+            <p className='text-[#e2a165] py-4 max-w-[700px] font-semibold'>I'm a Software Engineer specializing in creating, building 
                 (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building responsive full-stack Web applications.
             </p>
 
             <div>
               <Link  to="project" smooth={true} duration={500}>
-                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-red-400 hover:border-red-400'>
+                <button className='text-[#fff] group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#e2a165] font-semibold hover:border-[#e2a165]'>
                     View Project
                   <span className='group-hover:rotate-90 duration-300'>
                     <HiArrowNarrowRight className='animate-bounce w-6 h-6 ml-3'/>
