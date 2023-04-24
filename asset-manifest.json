@@ -1,13 +1,11 @@
 {
   "files": {
-    "main.css": "./https://jaywilliamsapar.github.io/mi-portfolio/static/css/main.21bc797a.css",
-    "main.js": "./https://jaywilliamsapar.github.io/mi-portfolio/static/js/main.9cb93ed1.js",
+    "main.css": "./https://jaywilliamsapar.github.io/mi-portfolio/static/css/main.858fefda.css",
+    "main.js": "./https://jaywilliamsapar.github.io/mi-portfolio/static/js/main.227079ad.js",
+    "static/media/LegalHome.svg": "./https://jaywilliamsapar.github.io/mi-portfolio/static/media/LegalHome.49d108ef9805d5e3d37a5a3e60a0437a.svg",
+    "static/media/welcome.svg": "./https://jaywilliamsapar.github.io/mi-portfolio/static/media/welcome.302c8eebc7be332e1c6a55e41d9bfe3c.svg",
     "static/media/white.png": "./https://jaywilliamsapar.github.io/mi-portfolio/static/media/white.ec73793f87b6f085effc.png",
-    "static/media/realestate.jpg": "./https://jaywilliamsapar.github.io/mi-portfolio/static/media/realestate.44fd19f4c6872731149c.jpg",
-    "static/media/hiLogo.png": "./https://jaywilliamsapar.github.io/mi-portfolio/static/media/hiLogo.3c613b13c6dd18841e92.png",
-    "static/media/myLog.png": "./https://jaywilliamsapar.github.io/mi-portfolio/static/media/myLog.100cf0fd6cfc635472d0.png",
-    "static/media/jws.png": "./https://jaywilliamsapar.github.io/mi-portfolio/static/media/jws.d6d987252df0ee274c25.png",
-    "static/media/LegalHome.jpg": "./https://jaywilliamsapar.github.io/mi-portfolio/static/media/LegalHome.c9c6bf02e262095a46fe.jpg",
+    "static/media/aryas.svg": "./https://jaywilliamsapar.github.io/mi-portfolio/static/media/aryas.fb19b63cfd346c1b1ffa3e2e7738ff59.svg",
     "static/media/cars.jpg": "./https://jaywilliamsapar.github.io/mi-portfolio/static/media/cars.3ff9e6107e365d8df25e.jpg",
     "static/media/workImg.jpeg": "./https://jaywilliamsapar.github.io/mi-portfolio/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/react.png": "./https://jaywilliamsapar.github.io/mi-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -22,11 +20,11 @@
     "static/media/jLogo.png": "./https://jaywilliamsapar.github.io/mi-portfolio/static/media/jLogo.5e621542e85228a59550.png",
     "static/media/javascript.png": "./https://jaywilliamsapar.github.io/mi-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "./https://jaywilliamsapar.github.io/mi-portfolio/index.html",
-    "main.21bc797a.css.map": "./https://jaywilliamsapar.github.io/mi-portfolio/static/css/main.21bc797a.css.map",
-    "main.9cb93ed1.js.map": "./https://jaywilliamsapar.github.io/mi-portfolio/static/js/main.9cb93ed1.js.map"
+    "main.858fefda.css.map": "./https://jaywilliamsapar.github.io/mi-portfolio/static/css/main.858fefda.css.map",
+    "main.227079ad.js.map": "./https://jaywilliamsapar.github.io/mi-portfolio/static/js/main.227079ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.21bc797a.css",
-    "static/js/main.9cb93ed1.js"
+    "static/css/main.858fefda.css",
+    "static/js/main.227079ad.js"
   ]
 }
