@@ -3,7 +3,6 @@ import WorkImg from '../assets/workImg.jpeg';
 import LegalHome from '../assets/LegalHome.svg';
 import White from '../assets/white.png';
 import Cars from '../assets/cars.jpg';
-import JWS from '../assets/jws.png';
 import Welcome from '../assets/welcome.svg';
 import Aryas from '../assets/aryas.svg';
 

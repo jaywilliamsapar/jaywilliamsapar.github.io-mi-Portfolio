@@ -55,7 +55,7 @@ const Skills = () => {
                 <div className='shadow-md shadow-[##6c7d91] hover:scale-125 duration-200'>
                     <img className='w-20 mx-auto' src={Mongo} alt="MONGODB-icon" />
                     <p className='text-[#e2a165] font-semibold'>MONGO DB</p>
-                </div>
+                </div>      
             </div>
             
         </div>

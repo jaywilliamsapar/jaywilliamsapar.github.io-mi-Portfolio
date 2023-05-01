@@ -1,18 +1,21 @@
 import React, {useState} from 'react';
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaDiscord} from 'react-icons/fa';
-import {HiOutlineMail} from 'react-icons/hi';
-import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {ImFilePdf} from 'react-icons/im';
 import {MdAttachEmail} from 'react-icons/md';
+import {Link} from 'react-scroll'
 import Logo from '../assets/jLogo.png';
+
+{/* COMMENTED OUT FOR FUTURE USE ®❤
+
 import Logo1 from '../assets/jLogo.png';
 import Logo2 from '../assets/jLogo.png';
 import Logo3 from '../assets/jLogo.png';
 import myLog from '../assets/myLog.png';
 import hiLogo from '../assets/hiLogo.png';
-import {Link} from 'react-scroll'
+import {HiOutlineMail} from 'react-icons/hi';
+import {BsFillPersonLinesFill} from 'react-icons/bs';
 
-
+*/}
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -83,33 +86,33 @@ const Navbar = () => {
 
       <div className='hidden lg:flex fixed flex-col top-[25%] left-0'>
         <ul>
-            <li  className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
+            <li  className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
               <a className='flex justify-between items-center w-full text-[#fff] font-semibold'
                 href="https://www.linkedin.com/in/williamsapar/" target="_blank">
                 Linkedin <FaLinkedin size={30} /> 
               </a>
             </li>
-            <li  className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+            <li  className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2b262c]'>
               <a className='flex justify-between items-center w-full text-[#fff] font-semibold'
                 href="https://github.com/jaywilliamsapar" target="_blank">
                 GitHub <FaGithub size={30}  className='text-gray-300'/> 
               </a>
             </li>
-            <li  className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#5d95de]'>
+            <li  className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#50b16a]'>
               <a  className='flex justify-between items-center w-full text-[#fff] font-semibold'
               href="mailto:jaywilliamsapar@gmail.com?subject=subject&cc=cc@jaywilliamsapar@gmail.com" target="_blank">
                 Email <MdAttachEmail size={30} /> 
               </a>
             </li>
-            <li  className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+            <li  className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#be4343]'>
               <a className='flex justify-between items-center w-full text-[#fff] font-semibold'
               href="/" target="_blank">
                 Resume <ImFilePdf size={30} /> 
               </a>
-            </li><li  className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6d39d6]'>
+            </li><li  className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6d39d6]'>
               <a className='flex justify-between items-center w-full text-[#fff] font-semibold'
               href="https://discord.com/channels/@me" target="_blank">
-                Discord <FaDiscord size={30} /> 
+                Discords <FaDiscord size={30} /> 
               </a>
             </li>
         </ul>
