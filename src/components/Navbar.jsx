@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaDiscord} from 'react-icons/fa';
-import {ImFilePdf} from 'react-icons/im';
-import {MdAttachEmail} from 'react-icons/md';
-import {Link} from 'react-scroll'
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaDribbble, FaDiscord} from 'react-icons/fa';
+import {HiOutlineMail} from 'react-icons/hi'
+import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/jLogo.png';
 
 {/* COMMENTED OUT FOR FUTURE USE ®❤
@@ -32,9 +31,10 @@ const Navbar = () => {
       {/* Menu  🧧🧧*/}
       <div>
         <ul className='hidden md:flex' animate-bounce>
-          <li><Link  to="home" smooth={true} duration={500}>
-            <p className='font-semibold  hover:text-[#d47924]'>Home</p>
-         </Link></li>
+          <li><Link  to="home" smooth={true} duration={600}>
+            Home
+         </Link>
+        </li>
           <li><Link  to="about" smooth={true} duration={500}>
           <p className='font-semibold  hover:text-[#d47924]'>About</p>
          </Link></li>
