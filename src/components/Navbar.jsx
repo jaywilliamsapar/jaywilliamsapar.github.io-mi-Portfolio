@@ -1,20 +1,16 @@
-import React, {useState} from 'react';
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaDribbble, FaDiscord} from 'react-icons/fa';
-import {HiOutlineMail} from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import React, { useState } from 'react';
+import {FaBars,
+    FaTimes,
+    FaGithub,
+    FaLinkedin,
+    FaDiscord} 
+    from 'react-icons/fa';
 import Logo from '../assets/jLogo.png';
+import { Link } from 'react-router-dom';
+import { MdAttachEmail } from 'react-icons/md';
+import { ImFilePdf } from 'react-icons/im';
 
-{/* COMMENTED OUT FOR FUTURE USE ®❤
 
-import Logo1 from '../assets/jLogo.png';
-import Logo2 from '../assets/jLogo.png';
-import Logo3 from '../assets/jLogo.png';
-import myLog from '../assets/myLog.png';
-import hiLogo from '../assets/hiLogo.png';
-import {HiOutlineMail} from 'react-icons/hi';
-import {BsFillPersonLinesFill} from 'react-icons/bs';
-
-*/}
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -23,29 +19,30 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#172d4e] text-[#fff]'>
       
-      <div><Link  to="home" smooth={true} duration={500}>
+      <div><Link to="home" smooth={true} duration={500}>
         <img src={Logo} alt="Logo Images" className='mt-16' style={{ width: '205px' }}/>
         </Link>
       </div>
 
       {/* Menu  🧧🧧*/}
+
       <div>
         <ul className='hidden md:flex' animate-bounce>
-          <li><Link  to="home" smooth={true} duration={600}>
+          <li><Link to="home" smooth={true} duration={600}>
             Home
          </Link>
         </li>
-          <li><Link  to="about" smooth={true} duration={500}>
-          <p className='font-semibold  hover:text-[#d47924]'>About</p>
+          <li><Link to="about" smooth={true} duration={500}>
+          <p className='font-semibold hover:text-[#d47924]'>About</p>
          </Link></li>
-          <li><Link  to="skills" smooth={true} duration={500}>
-          <p className='font-semibold  hover:text-[#d47924]'>Skills</p>
+          <li><Link to="skills" smooth={true} duration={500}>
+          <p className='font-semibold hover:text-[#d47924]'>Skills</p>
          </Link></li>
-          <li><Link  to="project" smooth={true} duration={500}>
-          <p className='font-semibold  hover:text-[#d47924]'>Projects</p>
+          <li><Link to="project" smooth={true} duration={500}>
+          <p className='font-semibold hover:text-[#d47924]'>Projects</p>
          </Link></li>
-          <li><Link  to="contact" smooth={true} duration={500}>
-          <p className='font-semibold  hover:text-[#d47924]'>Contact</p>
+          <li><Link to="contact" smooth={true} duration={500}>
+          <p className='font-semibold hover:text-[#d47924]'>Contact</p>
          </Link></li>
         </ul>
       </div>

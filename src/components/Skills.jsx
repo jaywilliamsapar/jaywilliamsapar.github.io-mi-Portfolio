@@ -26,11 +26,11 @@ const Skills = () => {
             </div>
             
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-                <div className='shadow-md shadow-[##6c7d91] hover:scale-125 duration-200'>
+                <div className='shadow-md shadow-[#6c7d91] hover:scale-125 duration-200'>
                     <img className='w-20 mx-auto' src={HTML} alt="HTML-icon" />
                     <p className='text-[#e2a165] font-semibold'>HTML</p>
                 </div>
-                <div className='shadow-md shadow-[##6c7d91] hover:scale-125 duration-200'>
+                <div className='shadow-md shadow-[#6c7d91] hover:scale-125 duration-200'>
                     <img className='w-20 mx-auto' src={CSS} alt="CSS-icon" />
                     <p className='text-[#e2a165] font-semibold'>CSS</p>
                 </div>
