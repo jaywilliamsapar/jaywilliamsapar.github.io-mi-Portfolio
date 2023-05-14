@@ -8,10 +8,6 @@ import Aryas from '../assets/aryas.svg';
 
 const Work = () => {
 
-    const [dick, setDick] = useState(false)
-    const handleClick = () => setDick(!dick)
-
-
   return (
     <div name='project' className='w-full md:h-screen text-gray-300 bg-[#172d4e]'>
 
@@ -141,9 +137,7 @@ const Work = () => {
                 </div>
                 
             </div>
-                <ul className={!dick ? 'visible' : 'absolute top-0 left-0 w-full h-screen bg-[#1a8083] flex flex-col justify-center items-center'}>
-            <button className='text-[#fff] group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#e2a165] font-semibold hover:border-[#e2a165]'>See more ૱</button>
-                </ul>
+               
       </div>
     </div>
   )
